@@ -13,7 +13,9 @@ class ExampleTest extends TestCase
      */
     public function testBasicExample()
     {
-        $this->visit('/')
-             ->see('Laravel 5');
+        // 配列を作成します。
+        $fixture = array();
+        // 配列のサイズは 0 です。
+        $this->assertEquals(0, sizeof($fixture));
     }
 }
