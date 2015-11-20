@@ -17,7 +17,7 @@ Route::get('api/{lang}/show/{id}/', 'Api\ExamApiController@show');
 
 # FRONT
 Route::get('front/', 'Front\ExamFrontController@index');
-Route::get('/', function(Request $request) {
-    return $request::all();
+Route::get('/', function() {
+    return redirect('/front/');
 });
 
