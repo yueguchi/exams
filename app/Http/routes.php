@@ -16,8 +16,8 @@ Route::get('api/{lang}/list/limit/{limit}/page/{page}/', 'Api\ExamApiController@
 Route::get('api/{lang}/show/{id}/', 'Api\ExamApiController@show');
 
 # FRONT
+Route::get('front/api/list/', 'Front\ExamFrontController@showList');
 Route::get('front/', 'Front\ExamFrontController@index');
 Route::get('/', function() {
     return redirect('/front/');
 });
-

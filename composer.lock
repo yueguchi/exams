@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3bc5c8654e1a6d659c6ceb3234b630ac",
-    "content-hash": "8e584ac81821ea3dfec70d70c54d6f3f",
+    "hash": "bb41f7ba381845384c55228e06e73a8c",
+    "content-hash": "befb0cb29b0afe0e8c8574a6171644bc",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -547,16 +547,16 @@
         },
         {
             "name": "laravelcollective/html",
-            "version": "dev-master",
+            "version": "v5.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "fb7693cf4b582fc5908ff44ea888afea066ac93a"
+                "reference": "5ad8377968ba3b4da91fc60ca98b2eef4df380fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/fb7693cf4b582fc5908ff44ea888afea066ac93a",
-                "reference": "fb7693cf4b582fc5908ff44ea888afea066ac93a",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/5ad8377968ba3b4da91fc60ca98b2eef4df380fc",
+                "reference": "5ad8377968ba3b4da91fc60ca98b2eef4df380fc",
                 "shasum": ""
             },
             "require": {
@@ -593,7 +593,7 @@
                     "email": "adam@laravelcollective.com"
                 }
             ],
-            "time": "2015-07-22 21:00:12"
+            "time": "2015-11-06 18:14:38"
         },
         {
             "name": "league/flysystem",
@@ -3152,12 +3152,11 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
-        "barryvdh/laravel-debugbar": 20,
-        "laravelcollective/html": 20
+        "barryvdh/laravel-debugbar": 20
     },
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.5.9"

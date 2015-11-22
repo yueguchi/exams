@@ -7,6 +7,7 @@
     <script src="/js/app.js"></script>
     <script src="/js/controller/exam-list.js"></script>
     <script src="/js/service/exam.js"></script>
+    {!! Html::style('css/main.css') !!}
 </head>
 <body>
     <div class="container">

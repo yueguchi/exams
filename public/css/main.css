@@ -1,0 +1,51 @@
+.api-result-json-text {
+    width: 100%;
+}
+
+.input-lang, .input-count, .input-page{
+    margin: 10px;
+}
+
+input edittext {
+    border: thin solid #666666;
+}
+
+.input-value {
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+input[readonly],textarea[readonly]{
+    background: #eeeeee;
+    cursor: not-allowed;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+.icon-equal {
+    background: url(../img/icon-equal.png) 50% 50% no-repeat;
+    display: inline-block;
+    height: 23px;
+    margin: 0 7px;
+    vertical-align: middle;
+    width: 28px;
+}
+
+textarea, .api-url {
+    width: 100%;
+    font-size: 18px;
+}
+
+.submit-api {
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    line-height: 50px;
+    width: 50%;
+    font-size: 18px;
+}
+.submit-api:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
