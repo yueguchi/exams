@@ -32,7 +32,7 @@ class ExamApiController extends Controller
         //
     }
 
-    public function show($lang, $id)
+    public function show($id)
     {
         $exam = new Exam();
         return \Response::json($exam->where('id', '=', (int)$id)->get());
