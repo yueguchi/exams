@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "eslint-plugin-angular": "^0.14.0",
     "gulp": "^3.8.8",
     "laravel-elixir": "^1.0.0"
   }
